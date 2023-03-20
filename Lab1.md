@@ -31,6 +31,16 @@ the obtained information. </p>
   <p>Utilized JADX to navigate the Android application source code to find where the encryption key is located.
 Jadx Command: $ jadx-gui homemate.apk</p>
 </li>
-<li>Network traffic sniffing:</li>
-<li>Exploiting Smart Plug</li>
+<li>
+  <h4>Network traffic sniffing:</h4>
+    <p>
+    blablabla*algo que diria chatgpt* bla bla
+  </p>
+ </li>
+<li>
+    <h4>Exploiting Smart Plug</h4>
+  <p>
+    blablabla*algo que diria chatgpt* bla bla
+  </p>
+ </li>
 </ol>
