@@ -1,7 +1,8 @@
-<h1>Exploiting a Smart Plug</h1>
+<h1>UPRM-PandaHat</h1>
+<h2>Lab 1: Exploiting a Smart Plug</h2>
 ------------------------------
 <h3>Description: </h3>
-In this lab, we are going to exploit an Orvibo Smart plug,
+<p> In this lab, we are going to exploit an Orvibo Smart plug,
 using mobile application reversing, native library analysis and
 network traffic capturing techniques.
 
@@ -21,11 +22,15 @@ mobile application, device and the remote endpoint using
 Wireshark. This step will also allow us to obtain the unique
 device key used for the device control commands.
 Finally, we will use a custom script to control the device using
-the obtained information.
+the obtained information. </p>
 
 <h3>Lab Steps</h3>
 <ol>
-<li>Reverse the mobile application to find:</li>
+<li>
+  <h4>Reverse Engineering the mobile Application</h4>
+  <p>Utilized JADX to navigate the Android application source code to find where the encryption key is located.
+Jadx Command: $ jadx-gui homemate.apk</p>
+</li>
 <li>Network traffic sniffing:</li>
 <li>Exploiting Smart Plug</li>
 </ol>
