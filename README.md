@@ -6,4 +6,4 @@
 
 Utilized JADX to navigate the Android application source code to find  where the encryption key is located. 
 
-''' Jadx Command: ### $ jadx-gui homemate.apk ''' 
+``` Jadx Command: $ jadx-gui homemate.apk ```
